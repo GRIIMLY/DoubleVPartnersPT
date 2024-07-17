@@ -1,0 +1,15 @@
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.csproj.AssemblyReference.cache
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.GeneratedMSBuildEditorConfig.editorconfig
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.AssemblyInfoInputs.cache
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.AssemblyInfo.cs
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.csproj.CoreCompileInputs.cache
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\bin\Debug\net7.0\DoubleVPartnersBI.deps.json
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\bin\Debug\net7.0\DoubleVPartnersBI.dll
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\bin\Debug\net7.0\DoubleVPartnersBI.pdb
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\bin\Debug\net7.0\DoubleVPartnersRepository.dll
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\bin\Debug\net7.0\DoubleVPartnersRepository.pdb
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.csproj.CopyComplete
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.dll
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\refint\DoubleVPartnersBI.dll
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\DoubleVPartnersBI.pdb
+F:\proyectos\Prueba tecnica_Double_Partners\DoubleVPartnersBackend\DoubleVPartnersBI\obj\Debug\net7.0\ref\DoubleVPartnersBI.dll

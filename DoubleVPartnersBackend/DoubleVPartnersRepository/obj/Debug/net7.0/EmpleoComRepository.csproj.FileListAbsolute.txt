@@ -1,0 +1,14 @@
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\bin\Debug\net7.0\EmpleoComRepository.deps.json
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\bin\Debug\net7.0\EmpleoComRepository.runtimeconfig.json
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\bin\Debug\net7.0\EmpleoComRepository.dll
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\bin\Debug\net7.0\EmpleoComRepository.pdb
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.csproj.AssemblyReference.cache
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.GeneratedMSBuildEditorConfig.editorconfig
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.AssemblyInfoInputs.cache
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.AssemblyInfo.cs
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.csproj.CoreCompileInputs.cache
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.dll
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\refint\EmpleoComRepository.dll
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.pdb
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\EmpleoComRepository.genruntimeconfig.cache
+F:\proyectos\PruebaTecnicaControlesEmpresariales\EmpleadoComBackend\EmpleoComRepository\obj\Debug\net7.0\ref\EmpleoComRepository.dll
