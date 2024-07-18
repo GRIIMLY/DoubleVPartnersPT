@@ -25,7 +25,7 @@ public partial class DoubleVPartnersDB : DbContext
     {
         modelBuilder.Entity<Persona>(entity =>
         {
-            entity.HasKey(e => e.Identificador).HasName("PK__Personas__F2374EB1A89F9E69");
+            entity.HasKey(e => e.Identificador).HasName("PK__Personas__F2374EB1E6144A19");
 
             entity.Property(e => e.Apellidos).HasMaxLength(50);
             entity.Property(e => e.Email).HasMaxLength(50);
@@ -44,26 +44,25 @@ public partial class DoubleVPartnersDB : DbContext
 
             entity.HasOne(d => d.Usuario).WithMany(p => p.Personas)
                 .HasForeignKey(d => d.UsuarioId)
-                .HasConstraintName("FK__Personas__Usuari__4E88ABD4");
+                .HasConstraintName("FK__Personas__Usuari__66603565");
         });
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.Identificador).HasName("PK__Usuario__F2374EB16325FCE5");
+            entity.HasKey(e => e.Identificador).HasName("PK__Usuario__F2374EB1AC599DF2");
 
             entity.ToTable("Usuario");
 
-            entity.HasIndex(e => e.Usuario1, "UQ__Usuario__E3237CF79FAFC9A9").IsUnique();
+            entity.HasIndex(e => e.Usuario1, "UQ__Usuario__E3237CF73DE59071").IsUnique();
 
             entity.Property(e => e.FechaCreacion)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
-            entity.Property(e => e.Pass).HasMaxLength(50);
+            entity.Property(e => e.Pass).HasMaxLength(200);
             entity.Property(e => e.Usuario1)
                 .HasMaxLength(50)
                 .HasColumnName("Usuario");
         });
-
         OnModelCreatingPartial(modelBuilder);
     }
 

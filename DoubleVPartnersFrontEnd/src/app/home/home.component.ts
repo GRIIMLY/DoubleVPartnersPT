@@ -9,12 +9,17 @@ export class HomeComponent {
 
 
   public visibleModal: boolean = false;
+  public visibleModalBD: boolean = false;
+
+
+  public mostrarFormlogin: boolean = false;
 
   constructor() {
 
   }
 
-  public showDialog() {
+  public showDialog(mostrarFormlogin: boolean) {
     this.visibleModal = true;
+    this.mostrarFormlogin = mostrarFormlogin;
   }
 }

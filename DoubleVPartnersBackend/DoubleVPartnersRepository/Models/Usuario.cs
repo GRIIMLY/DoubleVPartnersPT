@@ -5,7 +5,7 @@ namespace DoubleVPartnersRepository.Models;
 
 public partial class Usuario
 {
-    public int Identificador { get; set; }
+    public int? Identificador { get; set; }
 
     public string? Usuario1 { get; set; }
 

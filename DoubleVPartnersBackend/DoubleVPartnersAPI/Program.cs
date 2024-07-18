@@ -63,11 +63,19 @@ var PersonaEndpointBase = "persona/v1/";
 app.MapGet(PersonaEndpointBase, async (IPersonaBI personaBI, IMapper mapper) =>
  mapper.Map<List<PersonaDTO>>(await personaBI.getAll()));
 
+app.MapGet(PersonaEndpointBase+ "GetPersonasSP", async (IPersonaBI personaBI) =>
+ await personaBI.GetPersonasSP());
+
 app.MapGet(PersonaEndpointBase + "{Id}", async ([BindRequired] int Id, IPersonaBI personaBI, IMapper mapper) =>
  mapper.Map<PersonaDTO>(await personaBI.getById(Id)));
+app.MapGet(PersonaEndpointBase + "PorIdUsuario/{IdUsuario}", async ([BindRequired] int IdUsuario, IPersonaBI personaBI, IMapper mapper) =>
+ mapper.Map<PersonaDTO>(await personaBI.GetPersonaPorIdUsuario(IdUsuario)));
 
 app.MapPost(PersonaEndpointBase, async ([FromBody] PersonaDTO persona, IPersonaBI personaBI, IMapper mapper) =>
  mapper.Map<PersonaDTO>(await personaBI.insert(mapper.Map<Persona>(persona))));
+
+app.MapPut(PersonaEndpointBase, async ([FromBody] PersonaDTO persona, IPersonaBI personaBI, IMapper mapper) =>
+ mapper.Map<PersonaDTO>(await personaBI.update(mapper.Map<Persona>(persona))));
 
 app.MapDelete(PersonaEndpointBase + "{Id}", async ([BindRequired] int Id, IPersonaBI personaBI, IMapper mapper) =>
  personaBI.delete(Id));
@@ -83,6 +91,13 @@ app.MapGet(UserEndpointBase + "{Id}", async ([BindRequired] int Id, IUsuariosBI 
 
 app.MapPost(UserEndpointBase, async ([FromBody] UsuarioDTO usuario, IUsuariosBI usuarioBI, IMapper mapper) =>
  mapper.Map<UsuarioDTO>(await usuarioBI.insert(mapper.Map<Usuario>(usuario))));
+
+app.MapPost(UserEndpointBase+ "GetUsuarioByUsuario1AndPass", async ([FromBody] LoginDTO loginDTO, IUsuariosBI usuarioBI, IMapper mapper) =>
+ mapper.Map<UsuarioDTO>(await usuarioBI.GetUsuarioByUsuario1AndPass(loginDTO.Usuario1, loginDTO.Pass)));
+
+
+app.MapGet(UserEndpointBase + "GetUsuarioByUsuario1/{usuario}", async ([BindRequired] string usuario, IUsuariosBI usuarioBI, IMapper mapper) =>
+ mapper.Map<UsuarioDTO>(await usuarioBI.GetUsuarioByUsuario1(usuario)));
 
 app.MapDelete(UserEndpointBase + "{Id}", async ([BindRequired] int Id, IUsuariosBI usuarioBI, IMapper mapper) =>
  await usuarioBI.delete(Id));

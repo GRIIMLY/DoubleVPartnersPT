@@ -1,5 +1,6 @@
 ﻿
 using AutoMapper;
+using DoubleVPartnersRepository.DTOs;
 using DoubleVPartnersRepository.Models;
 using Repositories.Repositories;
 
@@ -31,6 +32,14 @@ namespace DoubleVPartnersBI.BI.Implements
             this.mapper = mapper;
         }
 
-    
+        public async Task<Persona> GetPersonaPorIdUsuario(int IdUsuario)
+        {
+            return await this.personaRepository.GetPersonaPorIdUsuario(IdUsuario);
+        }
+
+        public async Task<List<PersonaDTO>> GetPersonasSP()
+        {
+            return await this.personaRepository.GetPersonasSP();
+        }
     }
 }

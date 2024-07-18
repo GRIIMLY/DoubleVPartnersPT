@@ -1,0 +1,31 @@
+<div class="persona-container">
+  <h2>Perfil Persona</h2>
+  <form [formGroup]="personaForm" (ngSubmit)="onSubmit()">
+    <div class="p-field">
+      <label for="Nombres">Nombres</label>
+      <input id="Nombres" type="text" pInputText formControlName="Nombres"/>
+    </div>
+    <div class="p-field">
+      <label for="Apellidos">Apellidos</label>
+      <input id="Apellidos" type="text" pInputText formControlName="Apellidos"/>
+    </div>
+    <div class="p-field">
+      <label for="NumeroIdentificacion">Número de Identificación</label>
+      <input id="NumeroIdentificacion" type="text" pInputText formControlName="NumeroIdentificacion"/>
+    </div>
+    <div class="p-field">
+      <label for="Email">Email</label>
+      <input id="Email" type="email" pInputText formControlName="Email"/>
+      <p-message *ngIf="personaForm.controls['Email'].errors?.['email']" class="h-auto" severity="warn"
+      text="No es un correo valido"></p-message>
+    </div>
+    <div class="p-field">
+      <label for="TipoIdentificacion">Tipo de Identificación</label>
+      <br>
+      <p-dropdown [options]="tiposIdentificacion" formControlName="TipoIdentificacion" ></p-dropdown>
+    </div>
+
+    <button type="submit" pButton label="Registrar" [disabled]="!personaForm.valid"></button>
+  </form>
+</div>
+

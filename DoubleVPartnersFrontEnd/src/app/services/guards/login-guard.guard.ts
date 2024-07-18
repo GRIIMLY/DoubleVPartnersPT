@@ -7,9 +7,7 @@ import {
   Router,
 } from '@angular/router';
 import { Observable } from 'rxjs';
-import { LoginService } from '../login.service';
-import { AuditoriaService } from '../pages/auditoria.service';
-import { SesionVariablesService } from '../pages/sesion-variables.service';
+
 
 @Injectable({
   providedIn: 'root',
@@ -22,9 +20,6 @@ export class LoginGuardGuard implements CanActivate {
    */
   constructor(
     public router: Router,
-    public auditoriaService: AuditoriaService,
-    private loginService: LoginService,
-    private sesionService: SesionVariablesService
   ) { }
 
   /**
@@ -43,10 +38,10 @@ export class LoginGuardGuard implements CanActivate {
     | Promise<boolean | UrlTree>
     | boolean
     | UrlTree {
-    this.auditoriaService.construirUsuario();
-    if (this.sesionService.sesionObj?.UsuarioSesion == undefined ||this.sesionService.sesionObj?.UsuarioSesion == null) {
+      debugger
+    if (sessionStorage.getItem("Usuario1") == null) {
       //route
-      this.router.navigateByUrl("/noautenticado/login");
+      this.router.navigateByUrl("");
       return false;
     }
     else {

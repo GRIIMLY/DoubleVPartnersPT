@@ -9,6 +9,8 @@ namespace DoubleVPartnersRepository.DTOs
 {
     public class PersonaDTO
     {
+        public int? Identificador { get; set; }
+
         public string? Nombres { get; set; }
 
         public string? Apellidos { get; set; }

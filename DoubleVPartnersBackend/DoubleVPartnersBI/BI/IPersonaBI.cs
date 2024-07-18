@@ -1,4 +1,5 @@
-﻿using DoubleVPartnersRepository.Models;
+﻿using DoubleVPartnersRepository.DTOs;
+using DoubleVPartnersRepository.Models;
 
 
 namespace DoubleVPartnersBI.BI
@@ -7,6 +8,7 @@ namespace DoubleVPartnersBI.BI
     {
 
 
-
+        public Task<Persona> GetPersonaPorIdUsuario(int IdUsuario);
+        public Task<List<PersonaDTO>> GetPersonasSP();
     }
 }

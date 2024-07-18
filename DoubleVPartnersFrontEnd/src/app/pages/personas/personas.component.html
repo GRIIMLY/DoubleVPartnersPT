@@ -1,0 +1,14 @@
+<p-table [value]="personas">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Numero Identificacion</th>
+      <th>Nombres Apellidos</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-persona>
+    <tr>
+      <td>{{ persona.numeroIdentificacionConcatenado }}</td>
+      <td>{{ persona.nombresApellidosConcatenados }}</td>
+    </tr>
+  </ng-template>
+</p-table>

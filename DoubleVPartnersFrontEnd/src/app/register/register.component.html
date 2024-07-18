@@ -2,24 +2,24 @@
   <h2>Registro</h2>
   <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
     <div class="p-field">
-      <label for="Usuario1">Usuario</label>
+      <label for="usuario1">Usuario</label>
       <br />
       <input
-        id="Usuario1"
+        id="usuario1"
         type="text"
         pInputText
-        formControlName="Usuario1"
+        formControlName="usuario1"
         style="width: 100%"
       />
     </div>
     <div class="p-field">
-      <label for="Pass">Contraseña</label>
+      <label for="pass">Contraseña</label>
       <br />
       <input
-        id="Pass"
+        id="pass"
         type="password"
         pInputText
-        formControlName="Pass"
+        formControlName="pass"
         style="width: 100%"
       />
     </div>
@@ -33,6 +33,8 @@
         formControlName="confirmPassword"
         style="width: 100%"
       />
+      <p-message *ngIf="registerForm.controls['confirmPassword'].errors?.['mustMatch']" class="h-auto" severity="warn"
+      text="Las contraseñas no coinciden"></p-message>
     </div>
     <button
       type="submit"
@@ -41,7 +43,5 @@
       [disabled]="registerForm.invalid"
     ></button>
   </form>
-  <p>
-    <a routerLink="/">Login here</a>
-  </p>
+
 </div>

@@ -1,1 +1,9 @@
-<p>pages works!</p>
+<div class="navbar">
+  <div class="brand">Nicolas Morales Galindo</div>
+  <div class="nav-links" >
+    <p-button label="Perfil" styleClass="p-button-primary" [routerLink]="'perfil'" style="margin-right: 10px;"></p-button>
+    <p-button label="Personas" styleClass="p-button-secundary" [routerLink]="'personas'"  style="margin-right: 10px;"></p-button>
+    <p-button label="Cerrar Sesión" styleClass="p-button-danger" (onClick)="cerrarSesion()"></p-button>
+  </div>
+</div>
+<router-outlet></router-outlet>

@@ -5,7 +5,7 @@ namespace DoubleVPartnersRepository.Models;
 
 public partial class Persona
 {
-    public int Identificador { get; set; }
+    public int? Identificador { get; set; }
 
     public string? Nombres { get; set; }
 

@@ -2,18 +2,22 @@
   <h2>Login</h2>
   <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <div class="p-field">
-      <label for="Usuario1">Usuario</label>
+      <label for="usuario1">Usuario</label>
       <br>
-      <input id="Usuario1"  style="width: 100%;" type="text" pInputText formControlName="Usuario1"/>
+      <input id="usuario1"  style="width: 100%;" type="text" pInputText formControlName="usuario1" />
+      <p-message *ngIf="loginForm.controls['usuario1'].errors?.['maxlength']" class="h-auto" severity="warn"
+      text="El usuario no puede pasar de más de 50 caracteres"></p-message>
     </div>
     <div class="p-field">
-      <label for="Pass">Contraseña</label>
+      <label for="pass">Contraseña</label>
       <br>
-      <input id="Pass" type="password" pInputText formControlName="Pass" style="width: 100%;"/>
+      <input id="pass" type="password" pInputText formControlName="pass" style="width: 100%;"/>
+      <p-message *ngIf="loginForm.controls['pass'].errors?.['maxlength']" class="h-auto" severity="warn"
+      text="La contraseña no puede pasar de más de 50 caracteres"></p-message>
+      <p-message *ngIf="loginForm.controls['pass'].errors?.['minlength']" class="h-auto" severity="warn"
+      text="La contraseña debe contener más de 6 caracteres"></p-message>
     </div>
     <button type="submit" pButton label="Iniciar Sesión" [disabled]="loginForm.invalid"></button>
   </form>
-  <p>
-    <a routerLink="/register">Register here</a>
-  </p>
+
 </div>
