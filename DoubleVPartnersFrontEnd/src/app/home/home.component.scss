@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+.navbar {
+  background-color: #205175;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.navbar .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.primary-section {
+  background-color: #007ad9;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+.primary-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.primary-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.content-section {
+  padding: 2rem;
+  text-align: center;
+}
+.content-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.content-section .technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content-section .technologies div {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
+  flex: 1 1 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  background-color: #007ad9;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

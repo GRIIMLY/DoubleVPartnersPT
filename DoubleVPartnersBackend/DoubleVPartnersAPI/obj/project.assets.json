@@ -3481,11 +3481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersAPI\\DoubleVPartnersAPI.csproj",
+      "projectUniqueName": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersAPI\\DoubleVPartnersAPI.csproj",
       "projectName": "DoubleVPartnersAPI",
-      "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersAPI\\DoubleVPartnersAPI.csproj",
+      "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersAPI\\DoubleVPartnersAPI.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersAPI\\obj\\",
+      "outputPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3502,11 +3502,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersBI\\DoubleVPartnersBI.csproj": {
-              "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersBI\\DoubleVPartnersBI.csproj"
+            "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersBI\\DoubleVPartnersBI.csproj": {
+              "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersBI\\DoubleVPartnersBI.csproj"
             },
-            "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj": {
-              "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj"
+            "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj": {
+              "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj"
             }
           }
         }

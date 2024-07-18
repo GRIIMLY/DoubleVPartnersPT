@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RHt+enc9yi6f53wUhxloWDmjzC72QziCvWW2zxKfBj7NsjI8t0upQzFYBmW67r5LighjUbPMCiBtFQlaGkXDDQ==",
+  "dgSpecHash": "paQwwpxRpTof0yu/3+kmcVQbU2htkh0CwPD+jczsFGzVBVNArBjAwtdDMK4fgo2zl4zhUDrwSUmlT42ZVSZWVg==",
   "success": true,
-  "projectFilePath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersBI\\DoubleVPartnersBI.csproj",
+  "projectFilePath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersBI\\DoubleVPartnersBI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

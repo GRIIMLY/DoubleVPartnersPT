@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj": {}
+    "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj": {}
   },
   "projects": {
-    "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj": {
+    "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj",
+        "projectUniqueName": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj",
         "projectName": "DoubleVPartnersRepository",
-        "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj",
+        "projectPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\DoubleVPartnersRepository.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\obj\\",
+        "outputPath": "F:\\proyectos\\Prueba tecnica_Double_Partners\\DoubleVPartnersPT\\DoubleVPartnersBackend\\DoubleVPartnersRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",

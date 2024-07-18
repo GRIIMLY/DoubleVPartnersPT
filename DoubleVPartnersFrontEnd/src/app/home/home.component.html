@@ -1,0 +1,44 @@
+<div class="navbar">
+  <div class="brand">Double V Partners prueba técnica</div>
+  <div class="nav-links">
+    <p-button label="Iniciar Sesión" (click)="showDialog()" styleClass="p-button-secondary"></p-button>
+    <p-button label="Registrarse" (click)="showDialog()" style="margin-left:10px" styleClass="p-button-success"></p-button>
+  </div>
+</div>
+<div class="primary-section">
+  <h1>Bienvenido </h1>
+  <p></p>
+</div>
+<div class="content-section">
+  <h2>Tecnologías Utilizadas</h2>
+  <div class="technologies">
+      <div>
+          <h3>.NET Core 7</h3>
+          <p>Plataforma moderna y de alto rendimiento para la creación de aplicaciones.</p>
+          <img src="../../assets/img/netcore.jpg" height="100"/>
+      </div>
+      <div>
+          <h3>Angular</h3>
+          <p>Framework para desarrollar aplicaciones web robustas y dinámicas.</p>
+          <img src="../../assets/img/angular.png" height="100"/>
+      </div>
+      <div>
+          <h3>PrimeNG</h3>
+          <p>Conjunto de componentes UI para Angular que facilitan el desarrollo.</p>
+          <img src="../../assets/img/primeng.jpg" height="100"/>
+      </div>
+      <div>
+          <h3>SQL Server</h3>
+          <p>Sistema de gestión de bases de datos relacional desarrollado por Microsoft.</p>
+          <img src="../../assets/img/sqlserver.png" height="100"/>
+      </div>
+  </div>
+  <p>Desarrollado por Nicolas Morales Galindo</p>
+</div>
+<div class="footer">
+  <p>&copy; 2024 Prueba técnica</p>
+</div>
+<p-dialog header="" [(visible)]="visibleModal" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+  <!-- <app-login></app-login> -->
+   <app-register></app-register>
+</p-dialog>

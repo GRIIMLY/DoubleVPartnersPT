@@ -1,0 +1,19 @@
+<div class="login-container">
+  <h2>Login</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="p-field">
+      <label for="Usuario1">Usuario</label>
+      <br>
+      <input id="Usuario1"  style="width: 100%;" type="text" pInputText formControlName="Usuario1"/>
+    </div>
+    <div class="p-field">
+      <label for="Pass">Contraseña</label>
+      <br>
+      <input id="Pass" type="password" pInputText formControlName="Pass" style="width: 100%;"/>
+    </div>
+    <button type="submit" pButton label="Iniciar Sesión" [disabled]="loginForm.invalid"></button>
+  </form>
+  <p>
+    <a routerLink="/register">Register here</a>
+  </p>
+</div>

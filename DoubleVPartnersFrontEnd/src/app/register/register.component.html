@@ -1,0 +1,47 @@
+<div class="register-container">
+  <h2>Registro</h2>
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="p-field">
+      <label for="Usuario1">Usuario</label>
+      <br />
+      <input
+        id="Usuario1"
+        type="text"
+        pInputText
+        formControlName="Usuario1"
+        style="width: 100%"
+      />
+    </div>
+    <div class="p-field">
+      <label for="Pass">Contraseña</label>
+      <br />
+      <input
+        id="Pass"
+        type="password"
+        pInputText
+        formControlName="Pass"
+        style="width: 100%"
+      />
+    </div>
+    <div class="p-field">
+      <label for="confirmPassword">Confirmar Contraseña</label>
+      <br />
+      <input
+        id="confirmPassword"
+        type="password"
+        pInputText
+        formControlName="confirmPassword"
+        style="width: 100%"
+      />
+    </div>
+    <button
+      type="submit"
+      pButton
+      label="Registrar"
+      [disabled]="registerForm.invalid"
+    ></button>
+  </form>
+  <p>
+    <a routerLink="/">Login here</a>
+  </p>
+</div>
